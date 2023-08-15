@@ -5,9 +5,8 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;
 import static org.hamcrest.Matchers.is;
-import static org.hamcrest.Matchers.isEmptyString;
 
-public class RestApiTests {
+public class RestApiTests  extends BaseApiTest {
 
     @Test
     void getListUsersTest() {
@@ -17,7 +16,7 @@ public class RestApiTests {
                 .log().body()
                 .contentType(JSON)
                 .when()
-                .get("https://reqres.in/api/users?page=2")
+                .get("/users?page=2")
                 .then()
                 .log().status()
                 .log().body()
@@ -32,7 +31,7 @@ public class RestApiTests {
                 .log().body()
                 .contentType(JSON)
                 .when()
-                .get("https://reqres.in/api/users/2")
+                .get("/users/2")
                 .then()
                 .log().status()
                 .log().body()
@@ -48,7 +47,7 @@ public class RestApiTests {
                 .log().body()
                 .contentType(JSON)
                 .when()
-                .get("https://reqres.in/api/users/23")
+                .get("/users/23")
                 .then()
                 .log().status()
                 .log().body()
@@ -66,7 +65,7 @@ public class RestApiTests {
                 .body(registerData)
                 .contentType(JSON)
                 .when()
-                .post("https://reqres.in/api/register")
+                .post("/register")
                 .then()
                 .log().status()
                 .log().body()
@@ -86,7 +85,7 @@ public class RestApiTests {
                 .body(registerData)
                 .contentType(JSON)
                 .when()
-                .post("https://reqres.in/api/register")
+                .post("/register")
                 .then()
                 .log().status()
                 .log().body()

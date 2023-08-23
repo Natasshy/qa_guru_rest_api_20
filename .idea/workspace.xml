@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6094722-255f-4142-816d-b5a34c2f6062" name="Changes" comment="refactoring - add BaseApiTest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/CustomAllureListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/RegistrationBodyLombokModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/RegistrationResponseLombokModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/RegistrationResponsePojoModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/schemas/request_registration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/schemas/response_registration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/specs/RegistrationSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationExtendedTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tlp/request.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tlp/response.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RestApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RestApiTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="d6094722-255f-4142-816d-b5a34c2f6062" name="Changes" comment="add lombok and Specs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +105,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/tlp" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.qua_guru_rest_api_20 [test]">
+  <component name="RunManager" selected="Gradle.RegistrationExtendedTests">
     <configuration name="RegistrationExtendedTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -236,10 +222,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationExtendedTests" />
         <item itemvalue="Gradle.qua_guru_rest_api_20 [test]" />
         <item itemvalue="Gradle.qua_guru_rest_api_20 [allureServe]" />
         <item itemvalue="Gradle.qua_guru_rest_api_20 [allureReport]" />
-        <item itemvalue="Gradle.RegistrationExtendedTests" />
         <item itemvalue="Gradle.RegistrationExtendedTests.successfulRegistrationWithCustomAllureTest" />
       </list>
     </recent_temporary>
@@ -261,11 +247,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692082252820</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add lombok and Specs">
+      <option name="closed" value="true" />
+      <created>1692821393532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692821393532</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactoring - add BaseApiTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring - add BaseApiTest" />
+    <MESSAGE value="add lombok and Specs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lombok and Specs" />
   </component>
 </project>

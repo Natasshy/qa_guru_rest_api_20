@@ -6,7 +6,7 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;
 import static org.hamcrest.Matchers.is;
 
-public class RestApiTests  extends BaseApiTest {
+public class RestApiTests extends BaseApiTest {
 
     @Test
     void getListUsersTest() {
@@ -36,7 +36,8 @@ public class RestApiTests  extends BaseApiTest {
                 .log().status()
                 .log().body()
                 .statusCode(200)
-                .body("data.id", is(2));;
+                .body("data.id", is(2));
+        ;
     }
 
     @Test

@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6094722-255f-4142-816d-b5a34c2f6062" name="Changes" comment="add lombok and Specs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/schemas/request_registration.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/schemas/request_registration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/schemas/response_registration.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/schemas/response_registration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/tlp/request.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/tlp/request.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/tlp/response.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/tlp/response.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/specs/RegistrationSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/specs/RegistrationSpec.java" afterDir="false" />
-    </list>
+    <list default="true" id="d6094722-255f-4142-816d-b5a34c2f6062" name="Changes" comment="add lombok and Specs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +84,10 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/tests/RegistrationExtendedTests.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2TsxV5IwHUo2Uf97qmBm8ibE7Mh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -98,15 +95,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/tlp" />
@@ -119,7 +116,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationExtendedTests">
+  <component name="RunManager" selected="JUnit.RegistrationExtendedTests">
     <configuration name="RegistrationExtendedTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -134,30 +131,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.RegistrationExtendedTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="RegistrationExtendedTests.successfulRegistrationWithCustomAllureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.RegistrationExtendedTests.successfulRegistrationWithCustomAllureTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -234,13 +207,28 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="RegistrationExtendedTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qua_guru_rest_api_20.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.RegistrationExtendedTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegistrationExtendedTests" />
         <item itemvalue="Gradle.RegistrationExtendedTests" />
         <item itemvalue="Gradle.qua_guru_rest_api_20 [test]" />
         <item itemvalue="Gradle.qua_guru_rest_api_20 [allureServe]" />
         <item itemvalue="Gradle.qua_guru_rest_api_20 [allureReport]" />
-        <item itemvalue="Gradle.RegistrationExtendedTests.successfulRegistrationWithCustomAllureTest" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692822219282</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add lombok and Specs">
+      <option name="closed" value="true" />
+      <created>1692859207290</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692859207290</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

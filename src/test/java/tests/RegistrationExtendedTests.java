@@ -5,7 +5,6 @@ import models.RegistrationBodyLombokModel;
 import models.RegistrationResponseLombokModel;
 import org.junit.jupiter.api.Test;
 
-
 import static helpers.CustomAllureListener.withCustomTemplates;
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;

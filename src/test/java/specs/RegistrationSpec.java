@@ -28,7 +28,7 @@ public class RegistrationSpec {
             .log(STATUS)
             .log(BODY)
             .expectStatusCode(200)
-            .expectBody(matchesJsonSchemaInClasspath("resource/schemas/response_registration.json"))
+            .expectBody(matchesJsonSchemaInClasspath("schemas/response_registration_schema.json"))
             .build();
 
 }

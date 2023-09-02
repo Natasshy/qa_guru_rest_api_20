@@ -2,3 +2,10 @@
 /build
 /.gradle
 *.class
+.idea
+allure-results
+gradle/wrapper
+gradlew
+gradlew.bat
+qua_guru_rest_api_20.iml
+settings.gradle.kts
